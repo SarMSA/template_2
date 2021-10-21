@@ -1,0 +1,230 @@
+*{	
+	font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    max-width: 100%;
+    
+}
+
+body {
+ 
+  
+}
+.option-box {
+    z-index: 9999;
+    top: 51px;
+    position: fixed;
+    transition: all 0.5s ease-in-out;
+}
+.option-box .color-option {
+    float: left;
+    background-color: #b15a67;
+    border: 4px solid #503232;
+    display: none;
+    width: 150px;
+    
+}
+.option-box .cog-check {
+    background-color: #503232;
+    color: #b15a67;
+    padding: 3px;
+}
+.option-box .color-option ul li {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px ;
+    display: inline-block;
+    
+}
+
+.container {
+	width: 1399px;
+}
+.row {
+    margin-left: 0;
+}
+.navbar-inverse {
+	
+	background-color: #b15a67;
+    border-color: #980b0b;
+
+}
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+	
+    margin-left: 75px;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	
+	background-color: #503232;
+}
+.navbar-inverse .navbar-brand{
+	color: #e2d3d3;
+	font-size: 23px
+}
+.navbar-inverse .navbar-brand span{
+	color: #503232;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	  
+	color: #e8cbcb;
+}
+
+.navbar-right .dropdown-menu {
+	   
+	background-color: #bf8c97; 
+	right: auto;
+    left: 0;
+	
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+	
+	background-color: #984a56
+}
+.dropdown-menu > li > a{
+	
+	transition: all .5s ease;
+}
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus {
+	   
+	color: #e8d2d7; 
+	background-color: #984a56;
+    border-left: 5px solid #e2d3d3;
+    padding: 3px 23px;
+	
+}
+
+
+/*carousel inner*/
+
+.carousel-indicators .active {
+	    background-color: #b15a67
+}
+.carousel-indicators li {
+	
+	border: 1px solid #dcef67;
+}
+
+.img-responsive, .thumbnail > img, 
+.thumbnail a > img, .carousel-inner > .item > img, 
+.carousel-inner > .item > a > img {
+	
+	height: 500px;
+	width: 100%;
+}
+.carousel-inner >.item:first-of-type .carousel-caption  {
+	background-color: #7e000c91;
+    bottom: 49px;
+}
+.carousel-inner >.item:nth-of-type(2) .carousel-caption {
+	background-color: #15000180;
+	bottom: 49px;
+}
+.carousel-inner >.item:nth-of-type(3) .carousel-caption {
+	background-color: #eaa19b4d;
+    color: #1d220c;
+	bottom: 130px;
+}
+.carousel-inner >.item:last-of-type .carousel-caption  {
+	background-color: #49604b87;
+    bottom: 92px;
+  
+}
+
+
+
+/*start our footer*/
+
+.footer {
+    background-color: #6f343c;
+    color: #f1dcdc;
+    padding: 20px 0;
+    min-height: 600px;
+    padding-bottom: 0;
+    width: 100%;
+}
+.footer h3 {
+     padding: 30px 0;
+     color: #02bcd3;
+     letter-spacing: 1px;
+}
+.footer .lists li {
+     font-size: 18px;
+     width: 33.333%;
+     float: left;
+}
+.footer .socialicon img {
+    float: left;
+   
+    padding-right: 5px;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.7;
+    padding-top: 20px;
+    width: 48px;
+    height: 48px;
+}
+.footer .socialicon img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.footer .media-body {
+    width: 335px;
+}
+.footer .works .img-thumbnail {
+    width: 178px;
+    height: 135px;
+    background-color: #843e48;
+    border: none;
+    margin: 16px 12px;
+    box-shadow: 9px 9px 0px #503232;
+    -webkit-transition:all 0.5s ease-in-out;
+    -moz-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.footer .works .img-thumbnail:hover{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 6px #503232;
+    cursor: pointer;
+}
+.footer .copyright {
+    background-color: #b15a67;
+    padding: 20px 0;
+    font-size: 19px;
+    margin-top: 30px;
+}
+.footer .copyright span {
+    color: #0be4ff;
+   
+}
+
+/*start our about page */
+
+
+.breadcrumb-holder {
+    background-color: #f5f5f5;
+}
+.breadcrumb {
+    margin-bottom: 0;
+}
+.breadcrumb ul, ol{
+    margin-top: 51px;
+}
+
+/*about us */
+.about-us .img-responsive {
+    width: 700px;
+    padding-bottom: 50px;
+    
+}
+.about-us {
+    background-image: linear-gradient(to top,#c3858e,#f9f1e7,whitesmoke);
+}
